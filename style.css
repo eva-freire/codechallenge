@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,400&family=Roboto+Mono&display=swap');
+
+
+.container {
+    margin:60px;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    
+  }
+  
+  .form input {
+    background-color: rgb(245, 228, 255);
+    border: none;
+    height: 20px;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .form button {
+    background: rgb(101, 190, 238);
+    padding: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+label,input,button{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+ }
+
+
