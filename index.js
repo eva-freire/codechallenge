@@ -25,7 +25,7 @@ form.addEventListener('submit',function(e){
     procesaDatos(e); 
     
     fetch(url , {
-        method: 'POST',
+        method: "POST",
         headers: {
             "Content-Type": "application/json",
         }, body: JSON.stringify(JSONBody),
